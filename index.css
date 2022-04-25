@@ -1,0 +1,99 @@
+/* * {
+outline: 1px solid black;
+} */
+
+/* Style Guide Start */
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+h1, .label {
+    font-family: 'Lora', serif; 
+}
+
+h2, p {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Main Start */
+
+.main-wrapper {
+    background-color: #F5EFD9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    margin: 0 auto;
+    max-width: 850px;
+    padding: 40px 50px;
+    align-items: center;
+}
+
+.wrapper-left img {
+    max-width: 560px;
+}
+
+.wrapper-left {
+    margin: 0 15px;
+}
+
+/* Form Start */
+
+input[type=text], input[type=password],input[type=email] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 25px 0;
+    display: inline-block;
+    border: none;
+    background: #FCFCFC;
+    border-radius: 8px;
+  }
+
+  span {
+      text-decoration: underline;
+      color: rgb(84, 84, 223);
+      cursor: pointer;
+  }
+
+  .btn {
+      text-align: center;
+     margin-top: 30px;
+  }
+
+  button {
+      padding: 14px 35px;
+      border-radius: 15px;
+      background: #FCFCFC;
+      border: none;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #63ca3a;
+    padding: 14px 45px;
+    color: #FCFCFC;
+}
+
+/* Responsive Start */
+
+  @media only screen and (max-width: 600px) {
+    .main-wrapper {
+        flex-wrap: wrap;
+    }
+
+    img {
+        width: 100%;
+    }
+  }
