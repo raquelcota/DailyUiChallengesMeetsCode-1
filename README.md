@@ -1,5 +1,5 @@
 # DailyUiChallenges Meets Code 
-What better way to learn than by doing? 😊 Wanting to improve my design skills and start learning more about front end development I decided to combine two very famous ideas. The DailyUI Challenge with the 100 days of code. 
+What better way to learn than by doing? 😊 
 
 To week 1 of 100! 🚀
 
